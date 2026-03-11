@@ -14,13 +14,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     QK_GESC,        KC_1,    KC_2,    KC_3,    KC_4,               KC_5,                     KC_6,    KC_7,               KC_8,    KC_9,    KC_0,                  KC_MINS,
     MT(MOD_LALT, KC_TAB), KC_Q, KC_W, KC_E,    KC_R,               KC_T,                     KC_Y,    KC_U,               KC_I,    KC_O,    KC_P,                  MT(MOD_RGUI, KC_MINS),
     LT(_LAYER2, KC_ESC),  KC_A, KC_S, KC_D,    MT(MOD_LSFT, KC_F), KC_G,                     KC_H,    MT(MOD_RSFT, KC_J), KC_K,    KC_L,    MT(MOD_RCTL, JP_SCLN), LT(_LAYER2, JP_COLN),
-    MT(MOD_LCTL, JP_HENK),LT(_LAYER3, KC_Z), KC_X, KC_C,    KC_V,               KC_B,   JP_LBRC, JP_RBRC, KC_N,    KC_M,               KC_COMM, KC_DOT,  KC_SLSH,               JP_UNDS,
+    MT(MOD_LCTL, JP_HENK),LT(_LAYER3, KC_Z), KC_X, KC_C,    KC_V,               KC_B,   JP_LBRC, JP_RBRC, KC_N,    KC_M,               KC_COMM, KC_DOT,  KC_SLSH,               KC_INT1,
                                  LT(_LAYER3, MOD_LALT), KC_LSFT, KC_LGUI, KC_SPC,       LT(_LAYER1, KC_ENT), KC_BSPC, KC_DEL, MT(MOD_RALT, KC_APP)
   ),
 
   // Layer 1: Symbols
   [_LAYER1] = LAYOUT(
-    _______, _______, _______, _______, _______, _______,                   _______, _______, _______, _______, _______, KC_PSCR,
+    _______, _______, _______, _______, _______, _______,                   C(JP_PLUS), C(JP_MINS), _______, _______, _______, KC_PSCR,
     _______, JP_EXLM, JP_DQUO, JP_HASH, JP_DLR,  JP_PERC,                   JP_AMPR, JP_QUOT, JP_LPRN, JP_RPRN, JP_CIRC, JP_TILD,
     JP_EISU, KC_1,    KC_2,    KC_3,    KC_4,    KC_5,                      KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    _______,
     JP_MHEN, JP_AT,   JP_GRV,  JP_EQL,  JP_YEN,  JP_UNDS, _______, _______, JP_PLUS, JP_MINS, JP_ASTR, JP_QUES, JP_SLSH, JP_PIPE,
