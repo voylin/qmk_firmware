@@ -15,7 +15,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     MT(MOD_LALT, KC_TAB), KC_Q, KC_W, KC_E,    KC_R,               KC_T,                     KC_Y,    KC_U,               KC_I,    KC_O,    KC_P,                  MT(MOD_RGUI, KC_MINS),
     LT(_LAYER2, KC_ESC),  KC_A, KC_S, KC_D,    MT(MOD_LSFT, KC_F), KC_G,                     KC_H,    MT(MOD_RSFT, KC_J), KC_K,    KC_L,    MT(MOD_RCTL, JP_SCLN), LT(_LAYER2, JP_COLN),
     MT(MOD_LCTL, JP_HENK),LT(_LAYER3, KC_Z), KC_X, KC_C,    KC_V,               KC_B,   JP_LBRC, JP_RBRC, KC_N,    KC_M,               KC_COMM, KC_DOT,  KC_SLSH,               KC_INT1,
-                                 LT(_LAYER3, MOD_LALT), KC_LSFT, KC_LGUI, KC_SPC,       LT(_LAYER1, KC_ENT), KC_BSPC, KC_DEL, MT(MOD_RALT, KC_APP)
+                                 LT(_LAYER3, KC_LALT), KC_LSFT, KC_LGUI, KC_SPC,       LT(_LAYER1, KC_ENT), KC_BSPC, KC_DEL, MT(MOD_RALT, KC_APP)
   ),
 
   // Layer 1: Symbols
